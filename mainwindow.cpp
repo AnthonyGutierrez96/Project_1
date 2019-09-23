@@ -12,3 +12,13 @@ MainWindow::~MainWindow()
 {
     delete ui;
 }
+
+void MainWindow::on_pushButton_pressed()
+{
+    ui->textBrowser->setText("hello");
+}
+
+void MainWindow::on_pushButton_2_pressed()
+{
+
+}
